@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: times new roman, sans-serif;
     color: #1f2937;
     line-height: 1.6;
 }
@@ -28,7 +28,7 @@ nav {
 }
 
 nav h1 {
-    color: white;
+    color: green;
     font-size: 28px;
 }
 
@@ -135,7 +135,7 @@ footer {
     padding: 25px;
     text-align: center;
     background-color: #111827;
-    color: white;
+    color: Green;
 }.projet-carte {
     max-width: 400px;
     padding: 25px;
@@ -208,8 +208,8 @@ footer {
     border-radius: 10px;
 }
 #apropos img {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
     border-radius: 50%;
     display: block;
@@ -231,7 +231,38 @@ footer {
 #contact a:hover {
     background-color: #1d4ed8;
     transform: translateY(-3px);
+    #contact {
+    background-color: #f8fafc;
+    text-align: center;
 }
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+    font-size: 17px;
+#contact a {
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+footer {
+    padding: 30px 10%;
+    background-color: #111827;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
 }
 }@media (max-width: 768px) {
 
